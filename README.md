@@ -83,5 +83,6 @@ By default, the script uses the following list of messages to change your Discor
 
 - The script will keep running indefinitely, changing your display name periodically.
 - The script provides real-time feedback on the number of successful display name changes and failures, as well as the current token and display name being used.
+- [WARNING] DO NOT USE THIS TOOL WITH ANOTHER TOOL THAT INTERACTS WITH DISCORD API WITH THE SAME TOKEN LIKE [discord-stat-changer](https://github.com/Cowrod/discord-stat-changer) YOU CAN GET RATE-LIMITED
 
 **Use this script responsibly and be aware of the potential consequences of using self-bots on Discord.**
