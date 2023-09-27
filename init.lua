@@ -1,5 +1,5 @@
 local color={Black="\27[90m",Red="\27[91m",Green="\27[92m",Yellow="\27[93m",DarkBlue="\27[94m",Purple="\27[95m",LightBlue="\27[96m",White="\27[97m"}
-function clear()io.write(color.White..'\n\tdiscord-display-name-changer By Cowrod\n\n')end
+function clear()io.write("\27\99"..color.White..'\n\tdiscord-display-name-changer By Cowrod\n\n')end
 function count(t)a=0 for i,v in pairs(t)do a,i,v=a+1,nil,nil end return a end
 if not require'fs'.existsSync"donotdeleteme.iamaverifierfile"then while true do clear()print"Warning: Using this tool may result in the suspension of your Discord account.\nWhy? Although I cannot confirm, I've heard it may be due to potential \"selfbotting\" as mentioned on Reddit.\nThis tool simply changes your display name on a Discord server, but I cannot guarantee its safety.\nProceed at your own risk. [This message is for information purposes only.]"io.write'Type "YES" to continue using this tool: 'q,w=io.input():read'*l'if q and q:upper()=="YES"then break elseif not q and w then print"\nFailed To Read UserInput Please Create A File Named 'donotdeleteme.iamaverifierfile' if you confirm these thing in up"os.exit()end end require'fs'.writeFileSync("donotdeleteme.iamaverifierfile","")end
 clear()io.write("token> \27[97;107m")
