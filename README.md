@@ -1,4 +1,4 @@
-# discord-display-name-changer [readme.md by ChatGPT]
+# discord-display-name-changer \[[readme.md by ChatGPT](https://chat.openai.com/)\]
 
 **Disclaimer:** Using this tool may lead to your Discord account getting banned. The developer of this tool does not guarantee its safety, and it should be used at your own risk.
 
@@ -37,7 +37,7 @@ luvit setup --no-lit-log --no-lit-prompt
 luvit init
 ```
 
-#### Linux (idk if it does work):
+#### Linux (don't know how to write comments in linux soo-):
 
 ```sh
 git clone https://github.com/Cowrod/discord-display-name-changer
@@ -62,9 +62,9 @@ curl -L https://github.com/luvit/lit/raw/master/get-lit.sh | sh
 
    Note: You can replace `luvit` with the correct command for running Luvit on your system.
 
-<br/>note by Cowrod: <br/>
-you can just run "luvit init" and enter the token and server ID in the code itself instead of saving them into separate files<br/>
-<br/>AND if you are going to use this tool for an actual bot, put your input in this format "BOT token-here"
+**Note:** You can just run "luvit init" and enter the token and server ID in the code itself instead of saving them into separate files.
+
+**Note:** If you are going to use this tool for an actual bot, put your input in this format "BOT token-here".
 
 ## Warnings
 
@@ -83,6 +83,7 @@ By default, the script uses the following list of messages to change your Discor
 
 - The script will keep running indefinitely, changing your display name periodically.
 - The script provides real-time feedback on the number of successful display name changes and failures, as well as the current token and display name being used.
-- [WARNING] DO NOT USE THIS TOOL WITH ANOTHER TOOL THAT INTERACTS WITH DISCORD API WITH THE SAME TOKEN LIKE [discord-stat-changer](https://github.com/Cowrod/discord-stat-changer) YOU CAN GET RATE-LIMITED
+- This project was made for educational purposes only. The developer takes no responsibility for any actions you take with this program.
+- also, DO NOT USE THIS TOOL WITH ANOTHER TOOL THAT INTERACTS WITH DISCORD API WITH THE SAME TOKEN LIKE [discord-stat-changer](https://github.com/Cowrod/discord-stat-changer) YOU CAN GET RATE-LIMITED
 
 **Use this script responsibly and be aware of the potential consequences of using self-bots on Discord.**
